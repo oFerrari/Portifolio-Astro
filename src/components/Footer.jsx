@@ -2,14 +2,48 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white text-center py-4">
-      <ul className="flex space-x-4 ml-auto">
-          <li><a href="#about" className="hover:text-gray-400">Sobre Mim</a></li>
-          <li><a href="#skills" className="hover:text-gray-400">Habilidades</a></li>
-          <li><a href="#projects" className="hover:text-gray-400">Projetos</a></li>
-          <li><a href="#contact" className="hover:text-gray-400">Contato</a></li>
+    <footer className="bg-gray-800 text-white py-5 px-20">
+      <div className="flex items-center justify-between">
+        {/* Texto do rodapé */}
+        <p className="text-xs">&copy; 2024 Andrei. Todos os direitos reservados.</p>
+        
+        {/* Navegação do rodapé */}
+        <ul className="flex space-x-4">
+          <li>
+            <a
+              href="#about"
+              className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              aria-current="page"
+            >
+              Sobre Mim
+            </a>
+          </li>
+          <li>
+            <a
+              href="#skills"
+              className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+            >
+              Habilidades
+            </a>
+          </li>
+          <li>
+            <a
+              href="#projects"
+              className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+            >
+              Projetos
+            </a>
+          </li>
+          <li>
+            <a
+              href="#contact"
+              className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+            >
+              Contato
+            </a>
+          </li>
         </ul>
-      <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+      </div>
     </footer>
   );
 };
