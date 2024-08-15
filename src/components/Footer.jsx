@@ -3,11 +3,9 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-5 px-20">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-end">
         {/* Texto do rodapé */}
-        <p className="text-xs">&copy; 2024 Andrei. Todos os direitos reservados.</p>
         
-        {/* Navegação do rodapé */}
         <ul className="flex space-x-4">
           <li>
             <a

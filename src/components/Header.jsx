@@ -34,7 +34,9 @@ const Header = () => {
         </div>
 
 
-        akik
+        <p className="text-xs">&copy; 2024 Andrei. Todos os direitos reservados.</p>
+        
+        {/* Navegação do rodapé */}
 
       </nav>
 
