@@ -6,14 +6,7 @@ const Header = () => {
   return (
     <header className="bg-gray-900 text-white">
     
-        {/* Desktop Navigation */}
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end space-x-6">
-          <a href="#about" className="text-sm font-semibold leading-6 text-gray-300 hover:text-white">WhatsApp</a>
-          <a href="#skills" className="text-sm font-semibold leading-6 text-gray-300 hover:text-white">Habilidades</a>
-          <a href="#projects" className="text-sm font-semibold leading-6 text-gray-300 hover:text-white">Projetos</a>
-          <a href="#contact" className="text-sm font-semibold leading-6 text-gray-300 hover:text-white">Contato</a>
-        </div>
-
+    
       {/* Hero Section */}
       <div className="relative bg-gray-800 py-16 px-6 text-center">
   

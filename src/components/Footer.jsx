@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-5 px-20">
+    <footer className="bg-gray-800 text-white py-5 px-20 fixed bottom-0 left-0 w-full">
       <div className="flex items-center justify-end">
         {/* Texto do rodapé */}
         
