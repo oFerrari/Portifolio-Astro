@@ -1,7 +1,9 @@
 ---
 import Footer from '../components/Footer';
+import Habilidades from '../components/Habilidades';
 import Header from '../components/Header';
-import Main from '../components/Main';
+import Projetos from '../components/Projetos';
+import SobreMim from '../components/SobreMim';
 
 interface Props {
 	title: string;
@@ -31,8 +33,10 @@ const { title } = Astro.props;
 
     <!-- Main Content -->
     <div class="flex flex-col min-h-screen">
-        <main class="flex-1 container mx-auto px-4 py-8">
-            <Main />
+        <main class="flex-1 mx-auto">
+            <SobreMim />
+            <Projetos />
+            <Habilidades />
             <slot />
         </main>
 
