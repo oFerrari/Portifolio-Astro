@@ -21,19 +21,6 @@ const Header = () => {
           </a>
         </div>
 
-        {/* Mobile Menu Button */}
-        <div className="lg:hidden">
-          <button
-            type="button"
-            onClick={() => setMobileMenuOpen(true)}
-            className="p-2.5 text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
-          >
-            <span className="sr-only">Open menu</span>
-            <Bars3Icon aria-hidden="true" className="h-6 w-6" />
-          </button>
-        </div>
-
-
         <p className="text-xs">&copy; 2024 Andrei. Todos os direitos reservados.</p>
         
         {/* Navegação do rodapé */}
@@ -45,19 +32,19 @@ const Header = () => {
         
         <div className="relative z-10">
           <h1 className="text-4xl font-extrabold text-white">Bem-vindo ao Meu Portfólio</h1>
-          <p className="mt-2 text-lg text-gray-300">Desenvolvedor Front-End | Criativo | Solucionador de Problemas</p>
+          <p className="mt-2 text-lg text-gray-300">Desenvolvedor | Criativo | Solucionador de Problemas</p>
           <div className="mt-6 flex justify-center space-x-4">
             <a
-              href="#contact"
+              href="https://wa.me/+5567996762144"
               className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
             >
               Contato
             </a>
             <a
-              href="#projects"
+              href="https://github.com/oFerrari"
               className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-100"
             >
-              Ver Portfólio
+              Git Hub
               <ArrowRightIcon className="ml-2 h-5 w-5" aria-hidden="true" />
             </a>
           </div>

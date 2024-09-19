@@ -4,6 +4,7 @@ import Habilidades from '../components/Habilidades';
 import Header from '../components/Header';
 import Projetos from '../components/Projetos';
 import SobreMim from '../components/SobreMim';
+import Tecnologias from '../components/Tecnologias';
 
 interface Props {
 	title: string;
@@ -37,6 +38,7 @@ const { title } = Astro.props;
             <SobreMim />
             <Projetos />
             <Habilidades />
+            <Tecnologias />
             <slot />
         </main>
 
