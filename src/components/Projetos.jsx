@@ -14,7 +14,7 @@ const Projetos = () => {
                 {<div tabIndex={0} className="collapse collapse-open border-base-300 border">
                     <div className="collapse-title text-xl font-medium">Link do Projeto</div>
                     <div className="collapse-content">
-                        <a href="https://github.com/oFerrari/Pokedex" target="_blank" rel="noopener noreferrer" className="text-gray-300 underline">
+                        <a href="https://github.com/oFerrari/SGE-Front" target="_blank" rel="noopener noreferrer" className="text-gray-300 underline">
                         https://github.com/oFerrari/SGE-Front
                         </a>
                         <p></p>
